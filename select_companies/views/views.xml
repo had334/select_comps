@@ -1,0 +1,9 @@
+<odoo>
+  <data>
+    <template id="assets_editor" inherit_id="web.assets_backend" name="select_companies">
+      <xpath expr="." position="inside">
+          <script type="text/javascript" src="/select_companies/static/src/js/select_companies.js"></script>
+       </xpath>
+  </template>
+  </data>
+</odoo>

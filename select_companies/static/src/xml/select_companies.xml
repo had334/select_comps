@@ -1,0 +1,14 @@
+<templates xml:space="preserve">
+    <t t-name="SelectAllCompanies">
+            <li class="select_all_companies">
+                <a role="button"  class="select_companies" data-display="static" aria-expanded="false" href="#" title="Un/Select">
+                    <span t-attf-class="#{widget.isMobile ? 'fa fa-building-o' : 'oe_topbar_name'}">
+                        <t t-if="widget.allowed_company_ids.length == widget.user_companies.length">DeSelect All Companies</t>
+                        <t t-else="">Select All Companies</t>
+                    </span>
+                </a>
+
+        </li>
+    </t>
+
+</templates>
